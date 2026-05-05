@@ -1,0 +1,626 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato;
+}
+
+body{
+    background-color:#181A1C;
+}
+
+.palingAtas {
+    background-color:#181A1C;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 9vh;
+    min-width: 360px;
+    padding: 6px 20px 6px 20px;
+    gap: 20px;
+    
+}
+
+
+.palingAtasText{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 268px;
+    height: 44px;
+    gap: 12px;
+    
+}
+
+.palingAtasText .chill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.palingAtas .chill .CHILL{
+    width: 70px;
+    height: 30px;
+    display: none;
+}
+
+.palingAtas .palingAtasText .chillLogo{
+    width: 20px;
+    height: 18px;
+    
+}
+
+.palingAtas .palingAtasText p{
+    font-size: 10px;
+    font-weight: 500px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    color: white;
+    text-align: center;
+}
+
+.profileImage{
+    display: flex;
+}
+
+.profile{
+    display: flex;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+.palingAtas #arrowButton{
+    width: 8px;
+    height: 3px;
+    margin-left: 5px;
+    margin-top: 7.5px;
+}
+
+.palingAtas .profileImage{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    position: relative;
+    
+}
+
+
+.palingAtas .profileImage .content {
+    display: none;
+    text-align: center;
+    position: absolute;
+    width: 113px; ;
+    height: 32px;
+    color: white;
+    padding: 8px 12px 8px 12px;
+    top: 20px;
+    right: 0;
+    gap:5px;
+    
+}
+
+.palingAtas .profileImage .content ul{
+    font-size: 10px;
+    font-weight: 500px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    padding: 8px 12px 8px 12px;
+    display: flex;
+    background-color: #181A1C;
+    margin-left: 5px;
+    width: 113px; ;
+    height: 32px;
+}
+
+.palingAtas .profileImage .content img{
+    width: 12px;
+    height: 12px;
+    left: 5px;
+}
+
+.palingAtas:hover .profileImage .content{
+    display: block;
+    color: white;
+}
+
+.palingAtas:hover .profileImage .content ul:hover{
+    background-color: #C1C2C4;
+}
+
+.dutyAfterSchool{
+    background:linear-gradient(to top,#101213DB, transparent 30%),radial-gradient(circle at center,  transparent 30%, #181A1C 100% ), url(/chill.app/image/duty\ after\ school.png);               
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+      
+    
+}
+
+.dutyAfterSchool .dutyAfterSchoolText{
+    display: flex;
+    justify-content:left;
+    flex-direction: column;
+    text-align: left;
+    width: 90%;
+}
+
+.dutyAfterSchool .dutyAfterSchoolText h1{    
+    font-weight: 700px;
+    font-size: 24px;
+    font-style: bold;
+    line-height: 120%;
+    
+
+}
+
+.dutyAfterSchool .dutyAfterSchoolText .p {
+    font-weight: 500px;
+    font-size: 12px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    font-style: medium;
+    
+}
+
+.pertombolan{
+    display: flex;
+    margin-top: 20px;
+}
+
+.pertombolan .mulai{
+    width: 55px;
+    height: 25px;
+    border-radius: 12px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 12px;
+    font-weight: 700px;
+    line-height: 140%;
+    letter-spacing: 0.2;
+}
+
+
+.pertombolan .selengkapnya{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 25px;
+    border-radius: 48px;
+    border: none;
+    background-color: #22282A;
+    color: white;
+    font-size: 12px;
+    font-weight: 700px;
+    line-height: 140%;
+    letter-spacing: 0.2;
+}
+
+.pertombolan .selengkapnya img{
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+
+.pertombolan img{
+    width: 30px;
+    height: 25px;
+}
+
+.pertombolan .volume{
+    position: relative;
+    margin-left: auto;
+
+    
+    /* width: 44px;
+    left: 1039px; */
+    
+} 
+
+.lanjutNonton{
+    display: flex;
+    gap: 10px;
+    left: 20px;
+    width: 634px;
+    height: 151px;
+   
+}
+
+.lanjut{
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 120%;
+    color: whitesmoke;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.isi{
+    margin-left: 20px;
+    
+}
+
+.lanjutNonton .dontLookUp{
+    background-image: url(/chill.app/image/Card.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 309px;
+    height: 151px;
+    border-radius: 5px;
+    
+    
+}
+
+
+
+.lanjutNonton .allofusarded{
+    background-image: url(/chill.app/image/allofusdead.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 302px;
+    height: 151px;
+    border-radius: 5px;
+    left: 20px;
+    top: 648px;
+    
+    
+}
+
+
+.lanjutNonton .bluelock{
+    background-image: url(/chill.app/image/bluelock.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 309px;
+    height: 151px;
+    border-radius: 5px;
+    left: 20px;
+    top: 648px;
+    display: none;
+    
+    
+}
+
+
+.lanjutNonton .amancalledoto{
+    background-image: url(/chill.app/image/a\ man\ called\ ooto.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 309px;
+    height: 151px;
+    border-radius: 5px;
+    left: 20px;
+    top: 648px;
+    display: none;
+    
+    
+}
+
+
+.listFilm{
+    width:634px;
+    height: 235px;
+    top: 393px;
+    left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 20px;
+}
+
+
+.film{
+    display: flex;
+    width: 428px;
+    height: 189px;
+    gap: 5px;
+    left: 20px;
+    top: 648px;
+
+}
+
+.film img{
+    width: 95px;
+    height:145px ;
+    border-radius: 5px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    width: 360px;
+    height:193.75px;
+    padding: 20px;
+}
+
+/* .footer{
+    margin-left: 50px;
+    border: 1px solid blue;
+    
+   
+} */
+
+.firstFooter{
+    width: 320px;
+    height: 60.75px;
+    gap: 12px;
+
+    
+   
+}
+
+.lastFooter{
+    width: 320px;
+    height:60.75px ;
+    
+    
+}
+
+
+
+
+.firstFooter p {
+    font-size: 12px;
+    font-weight: 700px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    color: #C1C2C4;
+    
+    margin-bottom: 5px;
+}
+
+.lastFooter p{
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+
+footer .firstFooter img{
+    margin-bottom: 10px;
+}
+
+
+.lastFooterBig{
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 127px;
+    width: 514px;
+    
+    
+}
+
+.lastFooterBig p, .lastFooterBig2 p{
+    color: #C1C2C4;
+}
+
+.lastFooterBig2{
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 140px;
+    height: 164px;
+    gap: 15px;
+    align-items: flex-start;
+    justify-content: center;
+    
+
+}
+
+span{
+    font-size: 16px;
+    font-style: bold;
+    color:#FFFFFF;
+}
+
+
+
+@media screen and (min-width:768px){
+
+.palingAtasText{
+    width: 520.5454711914062px;
+    height: 44px;
+    gap: 70px;
+    
+    
+}
+
+.palingAtas .chill .CHILL{
+    display: flex;
+}
+
+.palingAtas .palingAtasText .chillLogo {
+    width: 40px;
+    height: 40px;
+    
+}
+
+.palingAtas .palingAtasText p{
+    font-size: 18px;
+}
+
+.profileImage{
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.profile{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    
+}
+
+
+
+
+.palingAtas #arrowButton{
+    width: 14px;
+    height: 10px;
+    margin-left: 7px;
+    margin-bottom: 12px;
+}
+
+
+
+    .dutyAfterSchool{
+    width: 100%;
+    height: 41vh;
+
+}
+
+.dutyAfterSchool{
+    height: 587px;
+}
+
+
+
+.dutyAfterSchool .dutyAfterSchoolText h1{    
+    font-size: 45px;
+
+}
+
+
+.dutyAfterSchool .dutyAfterSchoolText .p {
+    font-weight: 500px;
+    font-size: 18px;
+    width: 668px;
+    height: 148px;
+}
+
+.pertombolan{
+    gap: 10px;
+}
+
+.pertombolan .mulai{
+    width: 93px;
+    height: 48px;
+    border-radius:50px;
+    font-size:16px;
+
+}
+
+
+.pertombolan .selengkapnya {
+    width: 185px;
+    height: 44px;
+    padding: 10px 26px 10px 26px;
+    border-radius: 48px;
+    font-size: 16px;
+}
+
+.pertombolan .selengkapnya img{
+    height: 18px;
+    width: 18px;
+}
+
+
+.pertombolan img{
+    width: 44px;
+    height: 44px;
+}
+
+.pertombolan .volume{
+    position: relative;
+    margin-left: auto;
+    
+} 
+
+
+.isi{
+    margin: 0;
+}
+
+.lanjutNonton{
+    width: 1200px;
+    height: 162px;
+    margin: auto;
+
+}
+
+
+
+.lanjut{
+    font-size: 32px;
+    margin-left: 30px;
+    
+}
+
+.listFilm{
+    width:100%;
+    height: 70%;
+    top: 990px;
+    padding: 10px 20px 10px 20px;
+    margin:40px auto ;
+    
+}
+
+
+.lanjutNonton .dontLookUp,.lanjutNonton .allofusarded,.lanjutNonton .bluelock,.lanjutNonton .amancalledoto{
+    height:162px;
+    width: 302px;
+}
+
+.lanjutNonton .bluelock,.lanjutNonton .amancalledoto{
+    display: flex;
+    
+}
+
+
+.film{
+    width: 100%;
+    height: 365px;
+    justify-content: space-between;
+    margin:auto;
+    gap: 10px;
+}
+
+.film img{
+    width: 234px;
+    height:365px ;
+}
+
+footer{
+    width: 100%;
+    flex-direction: row;
+}
+
+.lastFooter{
+    display: none;
+}
+
+.firstFooter{
+    width: 251px;
+    height: 91px;
+}
+
+.lastFooterBig,.lastFooterBig2{
+    display: flex;
+}
+    
+    
+}
+
