@@ -133,7 +133,7 @@ body{
 }
 
 .dutyAfterSchool{
-    background:linear-gradient(to top,#101213DB, transparent 30%),radial-gradient(circle at center,  transparent 30%, #181A1C 100% ), url(/chill.app/image/duty\ after\ school.png);               
+    background:linear-gradient(to top,#101213DB, transparent 30%),radial-gradient(circle at center,  transparent 30%, #181A1C 100% ), url(image/duty\ after\ school.png);               
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -253,7 +253,7 @@ body{
 }
 
 .lanjutNonton .dontLookUp{
-    background-image: url(/chill.app/image/Card.png);
+    background-image: url(image/Card.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -267,7 +267,7 @@ body{
 
 
 .lanjutNonton .allofusarded{
-    background-image: url(/chill.app/image/allofusdead.png);
+    background-image: url(image/allofusdead.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -282,7 +282,7 @@ body{
 
 
 .lanjutNonton .bluelock{
-    background-image: url(/chill.app/image/bluelock.png);
+    background-image: url(image/bluelock.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -298,7 +298,7 @@ body{
 
 
 .lanjutNonton .amancalledoto{
-    background-image: url(/chill.app/image/a\ man\ called\ ooto.png);
+    background-image: url(image/a\ man\ called\ ooto.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
